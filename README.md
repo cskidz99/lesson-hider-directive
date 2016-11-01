@@ -54,7 +54,7 @@ in your DOM. There are three options: `'E'`, `'A'`, and `'C'`. These stand for E
 A directive that has `restrict: 'E'` (note that 'E' is a string) can only be used in your html as an element, like we have above.
 
 Think through Angular's built in directives such as ng-repeat or ng-options. These are used with the `'A'` restriction because they are passed as attributes to
-existing elements. Directives as classes (and especialaly as comments) are less common, and should usually be avoided. For now, let us just restrict our
+existing elements. Directives as classes (and especially as comments) are less common, and should usually be avoided. For now, let us just restrict our
 lessonHider directive to only be an Element.
 
 ## Step 3: Adding functionality
@@ -337,4 +337,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
